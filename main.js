@@ -50,7 +50,11 @@ function save() {
 }
 
 function discard() {
-    localStorage.removeItem("bestBrain");
+    const consent =
+        "Do you want delete the saved model? NOTE: You need to train the model from scratch if you delete the model.";
+    if (confirm(consent)) {
+        localStorage.removeItem("bestBrain");
+    }
 }
 
 function generateCars(N) {

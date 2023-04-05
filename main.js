@@ -3,6 +3,10 @@ document.getElementById("carCount").value =
 document.getElementById("mutationAmount").value =
     localStorage.getItem("mutationAmount") || "0.5";
 
+// for the tweakpane
+
+const pane = new Tweakpane.Pane();
+
 const carCanvas = document.getElementById("carCanvas");
 carCanvas.width = 200;
 const networkCanvas = document.getElementById("networkCanvas");

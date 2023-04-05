@@ -1,3 +1,4 @@
+// trained brain
 const bestBrain = {
     "levels": [
         {

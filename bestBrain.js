@@ -70,4 +70,4 @@ const bestBrain = {
             ],
         },
     ],
-}
+};
